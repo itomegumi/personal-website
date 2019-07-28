@@ -162,9 +162,8 @@ ul.skills {
 }
 
 h2 {
-
     text-align: center;
-    width: 60%;
+    width: 100%;
     padding: 10px;
     margin: 10px auto;
 }
@@ -229,27 +228,32 @@ footer {
         display: flex;
         max-width: 1200px;
         -ms-flex-pack: distribute;
-        justify-content: space-around;
         margin: 0 auto;
     }
   
     header {
       min-height: 470px;
     }
+
+    h2 {
+        text-align: center;
+        width: 100%;
+    }
+      
+    p {
+        text-align: justify;
+        text-justify: inter-word;
+    }
   
     .nav {
-      max-width: 1200px;
-      padding: 0 70px;
+        text-align: center;
     }
   
-    main {
-      padding-top: 20px;
+    .logo {
+        text-align: center;
     }
-  
-    main p {
-      line-height: 1.6em;
-    }
-  
+
+
     footer {
       font-size: 1.3em;
       max-width: 1200px;
